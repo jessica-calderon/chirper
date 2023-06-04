@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\Chirp;
@@ -10,10 +9,12 @@ class ChirpController extends Controller
     /**
      * Display a listing of the resource.
      */
+
     public function index()
     {
-        //
+        return view('chirps.index');
     }
+
 
     /**
      * Show the form for creating a new resource.
